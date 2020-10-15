@@ -1,0 +1,1 @@
+python3 ./magenta/models/polyphony_rnn/polyphony_rnn_generate.py --bundle_file=/home/mint/Desktop/CS4710/polyphony_rnn.mag --output_dir=./output --num_outputs=1 --num_steps=128 --inject_primer_during_generation=true

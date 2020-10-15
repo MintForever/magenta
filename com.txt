@@ -1,0 +1,7 @@
+melody_rnn_generate \
+--config=basic_rnn \
+--bundle_file=/home/mint/Desktop/CS4710/basic_rnn.mag\
+--output_dir=./output \
+--num_outputs=10 \
+--num_steps=128 \
+--primer_melody="[60]"
