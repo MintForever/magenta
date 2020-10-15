@@ -1,7 +1,4 @@
-melody_rnn_generate \
---config=basic_rnn \
---bundle_file=/home/mint/Desktop/CS4710/basic_rnn.mag\
---output_dir=./output \
---num_outputs=10 \
---num_steps=128 \
---primer_melody="[60]"
+melody_rnn_generate --config=basic_rnn --bundle_file=/home/mint/Desktop/CS4710/basic_rnn.mag --output_dir=./output --num_outputs=10 --num_steps=128 --primer_melody="[60]"
+
+melody_rnn_generate --config=basic_rnn --bundle_file=C:\Users\lin_x\Desktop\UVA\2.3\CS 4710\final_project\basic_rnn.mag --output_dir=./output --num_outputs=10 --num_steps=128 --primer_melody="[60]"
+python .\magenta\models\melody_rnn\melody_rnn_generate.py --config=basic_rnn
